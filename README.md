@@ -4,7 +4,7 @@ All tutorials I'm following while learning react
 ### npx create-react-app app-name
 Creates a react app (basic template) in current directory
 
-## npm start
+### npm start
 Starts the development server
 
 # Tips
