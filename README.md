@@ -8,13 +8,13 @@ Creates a react app (basic template) in current directory
 Starts the development server
 
 # Tips
-1. Identifying if a piece of data is state
+### 1. Identifying if a piece of data is state
     1. Does it remain unchanged over time? If so, it isn’t state.
     2. Is it passed in from a parent via props? If so, it isn’t state.
     3. Can you compute it based on existing state or props in your component? If so, it definitely isn’t state!
 What’s left is probably state.
 
-2. Identifying where a state should live
+### 2. Identifying where a state should live
     For each piece of state in your application:
 
     1. Identify every component that renders something based on that state.
